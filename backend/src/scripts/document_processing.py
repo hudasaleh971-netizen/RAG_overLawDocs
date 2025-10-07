@@ -10,7 +10,7 @@ import lancedb
 from langchain_docling.loader import ExportType
 from langchain_docling import DoclingLoader
 from docling.chunking import HybridChunker
-
+import os
 from src.scripts.logging import setup_logger
 # Configure Loguru: log to console and rotating file
 setup_logger()
